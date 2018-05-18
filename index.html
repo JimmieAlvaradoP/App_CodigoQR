@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+  <head>
+    <title>Demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+
+    <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    <!--<script src="js/jquery-1.10.2.js"></script>-->
+    <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/qr.js"></script>
+    <script src="js/jquery-ui.js"></script>
+  </head>
+
+  <body>
+    <div data-role="page" id="pageBuscar">
+      <div class="img-head"></div>
+      <!--lateral menu-->
+      <!--fin lateral menu-->
+      <div data-role="content" role="main">
+        <div id="areaTxt" align="center">
+          <h1>Demo Barcode/QR</h1>
+          <div style="text-align: center;">
+            <input type="button" onclick="scanCode();" value="Leer Código Barra / QR" style="width: 90%;margin-top: 12px;">
+          </div>
+        </div>
+      </div><!--content-->
+    </div><!--page-->
+  </body>
+
+</html>
